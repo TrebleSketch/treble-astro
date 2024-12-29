@@ -7,8 +7,47 @@ import Layout from '../layouts/Layout.astro';
 ---
 
 <Layout>
-	<Welcome />
-	<div class="bg-amber-100">
-    <h1 class="text-8xl">Foobar </h1>
-	</div>
+  <div class="px-8 max-w-7xl mx-auto">
+    <div class="flex flex-col gap-8 mb-8">
+      <div class="flex align-middle justify-center items-center">
+        <h1 class="text-8xl text-orange-100 p-8 text-center from-cyan-100/50 to-purple-600/50 bg-gradient-to-br rounded-3xl shadow-lg">Foobar </h1>
+      </div>  
+    </div>
+    <div class="relative bg-black">
+      <div class="absolute inset-0 bg-gradient-to-br from-slate-800/30 to-indigo-950/30"></div>
+      <div class="mx-auto mb-8 relative">
+        <div class="grid gap-8 grid-cols-3">
+          <div class="bg-slate-200/50">BLah</div>
+          <div class="bg-slate-200/50">BLah</div>
+          <div class="bg-slate-200/50">BLah</div>
+          <div class="col-span-3">
+            <div class="prose prose-invert max-w-[65ch] mx-auto">
+              <h1>Foobar</h1>
+              <p> bla bla </p>
+              <h2>Foobar</h1>
+              <p> bla bla </p>
+              <p> bla bla </p>
+              <h2>Foobar</h1>
+              <p> bla bla </p>
+              <h3>Bluuuuh</h3>
+              <p> bla bla blablabla </p>
+
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+    <div class="flex bg-fuchsia-400/30">
+      footer footer footer bla footer
+    </div>
+  </div>
 </Layout>
+
+<!--
+vim:
+i - insert mode
+type your shit
+Esc - exit insert mode
+:wq - write quit
+-->
